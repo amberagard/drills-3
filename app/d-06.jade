@@ -2,12 +2,14 @@ doctype html
 html(lang='en')
   head
     meta(charset='utf-8')
-    title Drill 5 - Movies
-    link(rel='stylesheet', href='./css/d-05.css')
+    title Drill 6 - Movie Scores
+    link(rel='stylesheet', href='./css/d-06.css')
   body
-    h1 Drill 5 - Movies
+    h1 Drill 6 - Movie Scores
 
-    button#get Get Box Office Movies
+    input#number(type='text' placeholder='Number of Movies')
+    input#score(type='text' placeholder='Score')
+    button#get Get
 
     #output
 
@@ -16,4 +18,4 @@ html(lang='en')
     script(src='./js/vendor/jquery-2.1.0.js')
     script(src='./js/vendor/lodash-2.4.1.js')
     script(src='./js/vendor/moment-2.6.0.js')
-    script(src='./js/es6/d-05.js')
+    script(src='./js/es6/d-06.js')
